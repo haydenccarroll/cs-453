@@ -1,0 +1,42 @@
+[1.018s] Invoking command in '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment': PYTHONPATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hw1_assignment build --build-base /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build install --prefix /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment --record /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log --single-version-externally-managed
+[1.436s] running egg_info
+[1.437s] creating build/hw1_assignment/hw1_assignment.egg-info
+[1.438s] writing build/hw1_assignment/hw1_assignment.egg-info/PKG-INFO
+[1.438s] writing dependency_links to build/hw1_assignment/hw1_assignment.egg-info/dependency_links.txt
+[1.438s] writing entry points to build/hw1_assignment/hw1_assignment.egg-info/entry_points.txt
+[1.439s] writing requirements to build/hw1_assignment/hw1_assignment.egg-info/requires.txt
+[1.439s] writing top-level names to build/hw1_assignment/hw1_assignment.egg-info/top_level.txt
+[1.439s] writing manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+[1.443s] reading manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+[1.446s] writing manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+[1.447s] running build
+[1.447s] running build_py
+[1.447s] creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build
+[1.447s] creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib
+[1.447s] creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment
+[1.448s] copying hw1_assignment/drive_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment
+[1.449s] copying hw1_assignment/__init__.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment
+[1.449s] copying hw1_assignment/odom_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment
+[1.450s] running install
+[1.450s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.450s]   warnings.warn(
+[1.451s] running install_lib
+[1.452s] creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment
+[1.458s] copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/drive_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment
+[1.459s] copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/__init__.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment
+[1.459s] copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/odom_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment
+[1.460s] byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/drive_node.py to drive_node.cpython-310.pyc
+[1.461s] byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/__init__.py to __init__.cpython-310.pyc
+[1.462s] byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/odom_node.py to odom_node.cpython-310.pyc
+[1.462s] running install_data
+[1.464s] creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index
+[1.464s] creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index/resource_index
+[1.464s] creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index/resource_index/packages
+[1.464s] copying resource/hw1_assignment -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index/resource_index/packages
+[1.465s] copying package.xml -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/hw1_assignment
+[1.465s] running install_egg_info
+[1.469s] Copying build/hw1_assignment/hw1_assignment.egg-info to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info
+[1.475s] running install_scripts
+[1.521s] Installing test script to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/hw1_assignment
+[1.521s] writing list of installed files to '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log'
+[1.584s] Invoked command in '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment' returned '0': PYTHONPATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hw1_assignment build --build-base /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build install --prefix /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment --record /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log --single-version-externally-managed

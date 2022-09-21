@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (hw1_assignment) JobQueued: {'identifier': 'hw1_assignment', 'dependencies': OrderedDict()}
+[0.000287] (hw1_assignment) JobStarted: {'identifier': 'hw1_assignment'}
+[0.097789] (-) TimerEvent: {}
+[0.198186] (-) TimerEvent: {}
+[0.298505] (-) TimerEvent: {}
+[0.398813] (-) TimerEvent: {}
+[0.499176] (-) TimerEvent: {}
+[0.599525] (-) TimerEvent: {}
+[0.699840] (-) TimerEvent: {}
+[0.800220] (-) TimerEvent: {}
+[0.900665] (-) TimerEvent: {}
+[1.001111] (-) TimerEvent: {}
+[1.017159] (hw1_assignment) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/hw1_assignment', 'build', '--build-base', '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build', 'install', '--prefix', '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment', '--record', '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log', '--single-version-externally-managed'], 'cwd': '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haydenccarroll', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/haydenccarroll', 'OLDPWD': '/home/haydenccarroll/Repositories/create3_examples_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3719', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'haydenccarroll', '_': '/home/haydenccarroll/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'haydenccarroll', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/usr/lib/dotnet/dotnet6-6.0.109', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/haydenccarroll/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/haydenccarroll/.dotnet/tools:/home/haydenccarroll/gcc-arm-none-eabi-10-2020-q4-major/bin/', 'SESSION_MANAGER': 'local/haydenccarroll-ThinkPad-T440s:@/tmp/.ICE-unix/2665,unix/haydenccarroll-ThinkPad-T440s:/tmp/.ICE-unix/2665', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/af58792f_9905_4653_8024_53ed3ec38f17', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/haydenccarroll/.cache/dotnet_bundle_extract', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IYDZS1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.101228] (-) TimerEvent: {}
+[1.201668] (-) TimerEvent: {}
+[1.302198] (-) TimerEvent: {}
+[1.402582] (-) TimerEvent: {}
+[1.436077] (hw1_assignment) StdoutLine: {'line': b'running egg_info\n'}
+[1.437325] (hw1_assignment) StdoutLine: {'line': b'creating build/hw1_assignment/hw1_assignment.egg-info\n'}
+[1.437786] (hw1_assignment) StdoutLine: {'line': b'writing build/hw1_assignment/hw1_assignment.egg-info/PKG-INFO\n'}
+[1.438257] (hw1_assignment) StdoutLine: {'line': b'writing dependency_links to build/hw1_assignment/hw1_assignment.egg-info/dependency_links.txt\n'}
+[1.438528] (hw1_assignment) StdoutLine: {'line': b'writing entry points to build/hw1_assignment/hw1_assignment.egg-info/entry_points.txt\n'}
+[1.438780] (hw1_assignment) StdoutLine: {'line': b'writing requirements to build/hw1_assignment/hw1_assignment.egg-info/requires.txt\n'}
+[1.439014] (hw1_assignment) StdoutLine: {'line': b'writing top-level names to build/hw1_assignment/hw1_assignment.egg-info/top_level.txt\n'}
+[1.439290] (hw1_assignment) StdoutLine: {'line': b"writing manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'\n"}
+[1.443142] (hw1_assignment) StdoutLine: {'line': b"reading manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'\n"}
+[1.446309] (hw1_assignment) StdoutLine: {'line': b"writing manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'\n"}
+[1.446688] (hw1_assignment) StdoutLine: {'line': b'running build\n'}
+[1.446872] (hw1_assignment) StdoutLine: {'line': b'running build_py\n'}
+[1.447121] (hw1_assignment) StdoutLine: {'line': b'creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build\n'}
+[1.447283] (hw1_assignment) StdoutLine: {'line': b'creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib\n'}
+[1.447422] (hw1_assignment) StdoutLine: {'line': b'creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment\n'}
+[1.448632] (hw1_assignment) StdoutLine: {'line': b'copying hw1_assignment/drive_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment\n'}
+[1.449016] (hw1_assignment) StdoutLine: {'line': b'copying hw1_assignment/__init__.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment\n'}
+[1.449438] (hw1_assignment) StdoutLine: {'line': b'copying hw1_assignment/odom_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment\n'}
+[1.449970] (hw1_assignment) StdoutLine: {'line': b'running install\n'}
+[1.450285] (hw1_assignment) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.450504] (hw1_assignment) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.450990] (hw1_assignment) StdoutLine: {'line': b'running install_lib\n'}
+[1.452515] (hw1_assignment) StdoutLine: {'line': b'creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment\n'}
+[1.458372] (hw1_assignment) StdoutLine: {'line': b'copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/drive_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment\n'}
+[1.458763] (hw1_assignment) StdoutLine: {'line': b'copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/__init__.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment\n'}
+[1.459018] (hw1_assignment) StdoutLine: {'line': b'copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/odom_node.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment\n'}
+[1.459926] (hw1_assignment) StdoutLine: {'line': b'byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/drive_node.py to drive_node.cpython-310.pyc\n'}
+[1.461243] (hw1_assignment) StdoutLine: {'line': b'byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/__init__.py to __init__.cpython-310.pyc\n'}
+[1.461936] (hw1_assignment) StdoutLine: {'line': b'byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/odom_node.py to odom_node.cpython-310.pyc\n'}
+[1.462635] (hw1_assignment) StdoutLine: {'line': b'running install_data\n'}
+[1.463842] (hw1_assignment) StdoutLine: {'line': b'creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index\n'}
+[1.464188] (hw1_assignment) StdoutLine: {'line': b'creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index/resource_index\n'}
+[1.464450] (hw1_assignment) StdoutLine: {'line': b'creating /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index/resource_index/packages\n'}
+[1.464635] (hw1_assignment) StdoutLine: {'line': b'copying resource/hw1_assignment -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/ament_index/resource_index/packages\n'}
+[1.464882] (hw1_assignment) StdoutLine: {'line': b'copying package.xml -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/share/hw1_assignment\n'}
+[1.465065] (hw1_assignment) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.468776] (hw1_assignment) StdoutLine: {'line': b'Copying build/hw1_assignment/hw1_assignment.egg-info to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info\n'}
+[1.475018] (hw1_assignment) StdoutLine: {'line': b'running install_scripts\n'}
+[1.502705] (-) TimerEvent: {}
+[1.520796] (hw1_assignment) StdoutLine: {'line': b'Installing test script to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/hw1_assignment\n'}
+[1.521498] (hw1_assignment) StdoutLine: {'line': b"writing list of installed files to '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log'\n"}
+[1.583436] (hw1_assignment) CommandEnded: {'returncode': 0}
+[1.602878] (-) TimerEvent: {}
+[1.627278] (hw1_assignment) JobEnded: {'identifier': 'hw1_assignment', 'rc': 0}
+[1.628452] (-) EventReactorShutdown: {}

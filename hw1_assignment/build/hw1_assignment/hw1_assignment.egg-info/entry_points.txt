@@ -1,0 +1,3 @@
+[console_scripts]
+test = hw1_assignment.__init__:main
+
