@@ -22,10 +22,6 @@ def main(args=None):
     turn_node = TurnNode(robotName)
     noise_node = NoiseNode(robotName)
 
-    done, accepted = noise_node.do()
-    time.sleep(2)
-    print(done, accepted)
-
     done, accepted = undock_node.do()
     time.sleep(1)
     done, accepted = forward_node.do(2, 1)
@@ -40,20 +36,14 @@ def main(args=None):
     time.sleep(1)
     done, accepted = forward_node.do(0.5, 1)
     time.sleep(1)
-    done, accepted = turn_node.do(-90, 0.1)
+    done, accepted = turn_node.do(360, 0.1)
+    time.sleep(1)
+    done, accepted = turn_node.do(-95, 0.1)
     time.sleep(1)
     done, accepted = forward_node.do(2.2, 1)
     time.sleep(1)
     done, accepted = dock_node.do()
     time.sleep(1)
     done, accepted = noise_node.do()
-
-
-
-
-
-
-    # done, accepted = dock_node.do()
-    print(done, accepted, "done!")
 
     rclpy.shutdown()
