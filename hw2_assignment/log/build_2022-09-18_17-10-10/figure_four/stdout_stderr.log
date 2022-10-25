@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/figure_four/figure_four.egg-info/PKG-INFO
+writing dependency_links to ../../build/figure_four/figure_four.egg-info/dependency_links.txt
+writing entry points to ../../build/figure_four/figure_four.egg-info/entry_points.txt
+writing requirements to ../../build/figure_four/figure_four.egg-info/requires.txt
+writing top-level names to ../../build/figure_four/figure_four.egg-info/top_level.txt
+reading manifest file '../../build/figure_four/figure_four.egg-info/SOURCES.txt'
+writing manifest file '../../build/figure_four/figure_four.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/python3.10/site-packages/figure_four-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/figure_four/figure_four.egg-info to /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/python3.10/site-packages/figure_four-0.0.0-py3.10.egg-info
+running install_scripts
+Installing figurefour script to /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/figure_four
+Installing main script to /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/figure_four
+writing list of installed files to '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/figure_four/install.log'

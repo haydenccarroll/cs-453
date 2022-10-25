@@ -1,0 +1,200 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd4e7c11db0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd4e7c11840>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd4e7c11840>>)
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.100s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/figure_four) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/figure_four' with type 'ros.ament_python' and name 'figure_four'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/irobot_create_msgs) by extension 'ros'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/irobot_create_msgs' with type 'ros.ament_cmake' and name 'irobot_create_msgs'
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.125s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install
+[0.126s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs', 'merge_install': False, 'path': '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/irobot_create_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'figure_four' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'figure_four' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/figure_four', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four', 'merge_install': False, 'path': '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/figure_four', 'symlink_install': False, 'test_result_base': None}
+[0.162s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.165s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/irobot_create_msgs' with build type 'ament_cmake'
+[0.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/irobot_create_msgs'
+[0.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four:/opt/ros/humble /usr/bin/cmake --build /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs -- -j8 -l8
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four:/opt/ros/humble /usr/bin/cmake --build /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs -- -j8 -l8
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four:/opt/ros/humble /usr/bin/cmake --install /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs
+[0.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_msgs)
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four:/opt/ros/humble /usr/bin/cmake --install /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs' for CMake module files
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs' for CMake config files
+[0.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'cmake_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.sh'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib'
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'ld_library_path_lib')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/bin'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib/pkgconfig/irobot_create_msgs.pc'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib/python3.10/site-packages'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/bin'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.ps1'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.bash'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.zsh'
+[0.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/colcon-core/packages/irobot_create_msgs)
+[1.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_msgs)
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs' for CMake module files
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs' for CMake config files
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'cmake_prefix_path')
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.sh'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib'
+[1.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'ld_library_path_lib')
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.ps1'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.dsv'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.sh'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/bin'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib/pkgconfig/irobot_create_msgs.pc'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib/python3.10/site-packages'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/bin'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.sh'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.bash'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/irobot_create_msgs/package.zsh'
+[1.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/share/colcon-core/packages/irobot_create_msgs)
+[1.129s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/figure_four' with build type 'ament_python'
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('figure_four', 'ament_prefix_path')
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/hook/ament_prefix_path.ps1'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/hook/ament_prefix_path.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/hook/ament_prefix_path.sh'
+[1.131s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.293s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/figure_four'
+[1.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/figure_four': AMENT_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs LD_LIBRARY_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/python3.10/site-packages:/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/figure_four build --build-base /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/figure_four/build install --prefix /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four --record /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/figure_four/install.log --single-version-externally-managed
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four' for CMake module files
+[1.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/figure_four' returned '0': AMENT_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs LD_LIBRARY_PATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/python3.10/site-packages:/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/figure_four build --build-base /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/figure_four/build install --prefix /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four --record /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/figure_four/install.log --single-version-externally-managed
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four' for CMake config files
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/bin'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/pkgconfig/figure_four.pc'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/lib/python3.10/site-packages'
+[1.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('figure_four', 'pythonpath')
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/hook/pythonpath.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/hook/pythonpath.dsv'
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/hook/pythonpath.sh'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/bin'
+[1.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(figure_four)
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/package.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/package.dsv'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/package.sh'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/package.bash'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/figure_four/package.zsh'
+[1.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/figure_four/share/colcon-core/packages/figure_four)
+[1.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.686s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.686s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.686s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.686s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.693s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/local_setup.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/_local_setup_util_ps1.py'
+[1.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/setup.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/local_setup.sh'
+[1.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/_local_setup_util_sh.py'
+[1.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/setup.sh'
+[1.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/local_setup.bash'
+[1.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/setup.bash'
+[1.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/local_setup.zsh'
+[1.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/install/setup.zsh'

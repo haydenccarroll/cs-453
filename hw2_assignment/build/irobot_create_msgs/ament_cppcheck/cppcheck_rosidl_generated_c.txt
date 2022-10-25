@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/irobot_create_msgs':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/test_results/irobot_create_msgs/cppcheck_rosidl_generated_c.xunit.xml /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_c/irobot_create_msgs
+
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/test_results/irobot_create_msgs/cppcheck_rosidl_generated_c.xunit.xml'

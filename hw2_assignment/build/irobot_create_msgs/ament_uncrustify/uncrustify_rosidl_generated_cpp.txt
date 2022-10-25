@@ -1,0 +1,256 @@
+-- run_test.py: invoking following command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/irobot_create_msgs':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/test_results/irobot_create_msgs/uncrustify_rosidl_generated_cpp.xunit.xml --linelength 0 /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/audio_note_sequence.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/audio_note_sequence__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/audio_note_sequence__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/audio_note_sequence__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/dock__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/dock__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/dock__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/drive_arc__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/drive_arc__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/drive_arc__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/drive_distance__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/drive_distance__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/drive_distance__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/led_animation__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/led_animation__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/led_animation__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/navigate_to_position__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/navigate_to_position__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/navigate_to_position__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/rotate_angle__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/rotate_angle__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/rotate_angle__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/undock__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/undock__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/undock__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/wall_follow__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/wall_follow__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/detail/wall_follow__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/dock.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/drive_arc.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/drive_distance.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/led_animation.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/navigate_to_position.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/rotate_angle.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/undock.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/action/wall_follow.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/audio_note.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/audio_note_vector.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/button.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/audio_note__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/audio_note__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/audio_note__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/audio_note_vector__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/audio_note_vector__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/audio_note_vector__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/button__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/button__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/button__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/dock_status__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/dock_status__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/dock_status__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/hazard_detection__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/hazard_detection__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/hazard_detection__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/hazard_detection_vector__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/hazard_detection_vector__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/hazard_detection_vector__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/interface_buttons__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/interface_buttons__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/interface_buttons__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_intensity__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_intensity__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_intensity__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_intensity_vector__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_intensity_vector__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_intensity_vector__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_opcode__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_opcode__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/ir_opcode__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/kidnap_status__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/kidnap_status__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/kidnap_status__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/led_color__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/led_color__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/led_color__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/lightring_leds__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/lightring_leds__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/lightring_leds__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/mouse__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/mouse__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/mouse__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/slip_status__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/slip_status__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/slip_status__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/stop_status__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/stop_status__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/stop_status__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_status__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_status__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_status__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_ticks__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_ticks__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_ticks__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_vels__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_vels__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/detail/wheel_vels__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/dock_status.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/hazard_detection.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/hazard_detection_vector.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/interface_buttons.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/ir_intensity.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/ir_intensity_vector.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/ir_opcode.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/kidnap_status.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/led_color.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/lightring_leds.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/mouse.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/slip_status.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/stop_status.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/wheel_status.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/wheel_ticks.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/msg/wheel_vels.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/e_stop__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/e_stop__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/e_stop__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/reset_pose__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/reset_pose__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/reset_pose__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/robot_power__builder.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/robot_power__struct.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/detail/robot_power__traits.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/e_stop.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/reset_pose.hpp'
+
+No code style divergence in file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_generator_cpp/irobot_create_msgs/srv/robot_power.hpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/test_results/irobot_create_msgs/uncrustify_rosidl_generated_cpp.xunit.xml'
