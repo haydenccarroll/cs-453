@@ -1,29 +1,59 @@
-import hw1_assignment.drive_node
-import hw1_assignment.odom_node
-
+import time
 import rclpy
-import threading
+
+from hw1_assignment.undock import UndockNode
+from hw1_assignment.dock import DockNode
+from hw1_assignment.forward import ForwardNode
+from hw1_assignment.turn import TurnNode
+from hw1_assignment.noise import NoiseNode
+
+
+
+def figure_4(d_node, o_node):
+    pass
 
 def main(args=None):
     rclpy.init(args=args)
-    d_node = hw1_assignment.drive_node.DriveNode("create3_05F8")
-    o_node = hw1_assignment.odom_node.OdomNode("create3_05F8")
-    rclpy.spin_once(o_node)
 
-    print("HELLO DOES IT PRINT AFTER A SPIN", flush=True)
+    robotName = "create3_05B9"
+    undock_node = UndockNode(robotName)
+    dock_node = DockNode(robotName)
+    forward_node = ForwardNode(robotName)
+    turn_node = TurnNode(robotName)
+    noise_node = NoiseNode(robotName)
 
-    # drive_node.undock()
-    while o_node.pose.position.x - 2 < 0:
-        # print(o_node.pose.position)
-        d_node.drive_forward()
-        rclpy.spin_once(o_node)
-        pass
-    
-    d_node.figure4()
-    d_node.spinaround()
-    d_node.movetodock()
-    d_node.dock()
+    done, accepted = noise_node.do()
+    time.sleep(2)
+    print(done, accepted)
+
+    # done, accepted = undock_node.do()
+    # time.sleep(1)
+    # done, accepted = forward_node.do(2, 1)
+    # time.sleep(1)
+    # done, accepted = forward_node.do(0.75, 1)
+    # time.sleep(1)
+    # done, accepted = turn_node.do(135, 0.1)
+    # time.sleep(1)
+    # done, accepted = forward_node.do(0.5, 1)
+    # time.sleep(1)
+    # done, accepted = turn_node.do(135, 0.1)
+    # time.sleep(1)
+    # done, accepted = forward_node.do(0.5, 1)
+    # time.sleep(1)
+    # done, accepted = turn_node.do(-90, 0.1)
+    # time.sleep(1)
+    # done, accepted = forward_node.do(2.2, 1)
+    # time.sleep(1)
+    # done, accepted = dock_node.do()
+    # time.sleep(1)
+    # done, accepted = noise_node.do()
 
 
-    d_node.destroy_node()
+
+
+
+
+    # done, accepted = dock_node.do()
+    print(done, accepted, "done!")
+
     rclpy.shutdown()

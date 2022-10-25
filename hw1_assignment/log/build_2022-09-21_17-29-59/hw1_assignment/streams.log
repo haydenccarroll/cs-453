@@ -1,0 +1,23 @@
+[1.091s] Invoking command in '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment': PYTHONPATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hw1_assignment build --build-base /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build install --prefix /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment --record /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log --single-version-externally-managed
+[1.461s] running egg_info
+[1.462s] writing build/hw1_assignment/hw1_assignment.egg-info/PKG-INFO
+[1.463s] writing dependency_links to build/hw1_assignment/hw1_assignment.egg-info/dependency_links.txt
+[1.463s] writing entry points to build/hw1_assignment/hw1_assignment.egg-info/entry_points.txt
+[1.463s] writing requirements to build/hw1_assignment/hw1_assignment.egg-info/requires.txt
+[1.463s] writing top-level names to build/hw1_assignment/hw1_assignment.egg-info/top_level.txt
+[1.468s] reading manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+[1.470s] writing manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+[1.470s] running build
+[1.470s] running build_py
+[1.471s] running install
+[1.471s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.471s]   warnings.warn(
+[1.471s] running install_lib
+[1.474s] running install_data
+[1.475s] running install_egg_info
+[1.477s] removing '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+[1.478s] Copying build/hw1_assignment/hw1_assignment.egg-info to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info
+[1.480s] running install_scripts
+[1.514s] Installing test script to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/hw1_assignment
+[1.515s] writing list of installed files to '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log'
+[1.578s] Invoked command in '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment' returned '0': PYTHONPATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hw1_assignment build --build-base /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build install --prefix /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment --record /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log --single-version-externally-managed

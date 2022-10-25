@@ -1,0 +1,25 @@
+running egg_info
+writing build/hw1_assignment/hw1_assignment.egg-info/PKG-INFO
+writing dependency_links to build/hw1_assignment/hw1_assignment.egg-info/dependency_links.txt
+writing entry points to build/hw1_assignment/hw1_assignment.egg-info/entry_points.txt
+writing requirements to build/hw1_assignment/hw1_assignment.egg-info/requires.txt
+writing top-level names to build/hw1_assignment/hw1_assignment.egg-info/top_level.txt
+reading manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+writing manifest file 'build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hw1_assignment/__init__.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment
+copying hw1_assignment/noise.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment
+running install
+running install_lib
+copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/__init__.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment
+copying /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/build/lib/hw1_assignment/noise.py -> /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment
+byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment/noise.py to noise.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/hw1_assignment/hw1_assignment.egg-info to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test script to /home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment/lib/hw1_assignment
+writing list of installed files to '/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/build/hw1_assignment/install.log'
