@@ -5,10 +5,10 @@ from paho.mqtt import client as mqtt
 from nav_msgs.msg import Odometry
 
 class OdomSub(Node):
-    def __init__(self, robot_name, mqtt_client):
-        super().__init__(f"{robot_name}_odom_sub_node")
+    def __init__(self, robot_id, mqtt_client):
+        super().__init__(f"{robot_id}_odom_sub_node")
         self.mqtt_client = mqtt_client
-        self.robot_id = robot_name
+        self.robot_id = robot_id
 
         # QoS profile:
         #   Reliability: BEST_EFFORT
@@ -26,9 +26,10 @@ class OdomSub(Node):
 
         self.sub_client = self.create_subscription(
             Odometry,
-            "/" + robot_name + "/odom",
+            "/" + robot_id + "/odom",
             self._result_callback,
             self.qos)
+
 
     def _result_callback(self, future):
         pose = future.pose
@@ -37,6 +38,9 @@ class OdomSub(Node):
         msg = dict()
         msg["pose"] = pose
         msg["twist"] = twist
-        result = self.mqtt_client.publish(
+
+
+        self.mqtt_client.publish(
             f"irobot_create3_swarm/gcs_pose/{self.robot_id}",
             str(msg))
+

@@ -1,26 +1,26 @@
 from paho.mqtt import client as mqtt
-from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Pose
 
 
 class Robot:
-    def __init__(self, id, pose):
+    def __init__(self, id):
         self.id = id
-        self.pose = pose
+        self.pose = None
 
 class RobotSubs:
     def __init__(self, robot_ids, mqtt_client):
         self.mqtt_client = mqtt_client
         self.robot_ids = robot_ids
-        self.robot_list = [Robot(id, None) for id in self.robot_ids]
+        self.robot_list = [Robot(id) for id in self.robot_ids]
 
         for robot_id in self.robot_ids:
-            result = self.mqtt_client.subscribe(
+            self.mqtt_client.subscribe(
                     f"irobot_create3_swarm/gcs_pose/{robot_id}"
                 )
         self.mqtt_client.on_message = self.on_message
 
     def on_message(self, client, userdata, msg):
+        print("ON MESSAGE: ", msg)
         for robot in self.robot_list:
             if robot.id in msg.topic:
                 robot.pose = msg.payload
@@ -35,9 +35,3 @@ class RobotSubs:
                 return robot
         return None
 
-    def update_robots_pos(self):
-        for robot in self.robot_list:
-            result = self.mqtt_client.subscribe(
-                f"irobot_create3_swarm/gcs_pose/{robot.id}"
-            )
-            robot.pose = result

@@ -48,7 +48,8 @@ class ActionHandler(rclpy.node.Node):
 
     def stop(self):
         if self.goal_handle is not None:
-            self.goal_handle.cancel_goal()
+            self.goal_handle.cancel_goal_async()
+
         self.goal_handle = None
         self.done, self.accepted = False, False
         self.goal_msg = None

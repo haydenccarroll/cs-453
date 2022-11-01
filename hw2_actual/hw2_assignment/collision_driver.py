@@ -51,7 +51,7 @@ class CollisionDriver(rclpy.node.Node):
             if doneDist:
                 self.collision_state = CollisionStates.DIDFIRSTDRIVE
                 # turn right 90deg
-                self.angle_driver.start(-1 * math.pi / 4)
+                self.angle_driver.start(-1 * math.pi / 2)
             
         elif self.collision_state == CollisionStates.DIDFIRSTDRIVE:
             if doneAngle:
@@ -63,7 +63,7 @@ class CollisionDriver(rclpy.node.Node):
             if doneDist:
                 self.collision_state = CollisionStates.DIDSECONDDRIVE
                 # turn right 90deg
-                self.angle_driver.start(-1 * math.pi / 4)
+                self.angle_driver.start(-1 * math.pi / 2)
             
         elif self.collision_state == CollisionStates.DIDSECONDDRIVE:
             if doneAngle:

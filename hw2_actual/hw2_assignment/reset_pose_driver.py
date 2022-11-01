@@ -12,7 +12,7 @@ class ResetPoseDriver(Node):
         pose.position.x = 0.0
         pose.position.y = 0.0
         pose.position.z = 0.0
-        pose.position.y += 1926.0
+        pose.position.y += 1.926
         pose.orientation.w = 1.0
         pose.orientation.x = 0.0
         pose.orientation.y = 0.0

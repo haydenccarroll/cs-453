@@ -25,23 +25,26 @@ class RobotLogic():
         self.mqtt_client = mqtt.Client(f"{robot_id} mqtt client")
         self.mqtt_client.connect(mqtt_ip)
 
+        self.mqtt_sub_client = mqtt.Client(f"{robot_id} mqtt sub client")
+        self.mqtt_sub_client.connect(mqtt_ip)
+
         self.robot_id = robot_id
         self.old_collision = None
         self.odom_sub = OdomSub(robot_id, self.mqtt_client)
         self.detections_sub = DetectionsSub(robot_id, self.mqtt_client)
-        self.all_robots = RobotSubs(["create3_05B9", "create3_05B9"], self.mqtt_client)
+        self.all_robots = RobotSubs(["create3_05B9", "create3_05B9"], self.mqtt_sub_client)
 
         self.external_state = StateMachine(robot_id, self.mqtt_client)
         self.internal_state = InternalState.OTHER
 
         goal_pose = PoseStamped()
-        goal_pose.pose.position.x = 0.0
+        goal_pose.pose.position.x = 1.0
         goal_pose.pose.position.y = 0.0
         goal_pose.pose.position.z = 0.0
-        goal_pose.pose.orientation.x = 0.0
-        goal_pose.pose.orientation.y = 0.0
-        goal_pose.pose.orientation.z = 0.0
-        goal_pose.pose.orientation.w = 1.0
+        # goal_pose.pose.orientation.x = 0.0
+        # goal_pose.pose.orientation.y = 0.0
+        # goal_pose.pose.orientation.z = 0.0
+        # goal_pose.pose.orientation.w = 0.0
 
 
 
@@ -51,21 +54,22 @@ class RobotLogic():
         self.undock_driver = UndockDriver(robot_id)
 
     def collisionDetection(self):
-        print(self.all_robots.get_robot(self.robot_id).pose)
-        our_position = self.all_robots.get_robot(self.robot_id).pose.position
+        our_robot = self.all_robots.get_robot(self.robot_id)
+        if our_robot.pose is None: # we cant check for collision, we dont have our pos
+            return
         for robot in self.all_robots.get_robots():
-            if robot.id == self.robot_id:
+            if robot.id == self.robot_id or robot.pose is None:
                 continue
 
             robot_position = robot.pose.position
             robot_velocity = robot.pose.twist.velocity
 
             # angle from our position and robot position
-            angle = math.atan2(robot_position.y - our_position.y,
-                               robot_position.x - our_position.x)
+            angle = math.atan2(robot_position.y - our_robot.pose.y,
+                               robot_position.x - our_robot.pose.x)
 
             # offsetting the angle by the way we are facing
-            angle -= our_position.orientation.angle
+            angle -= our_robot.pose.orientation.angle
             angle %= math.pi * 2
             lower_bound = math.pi / 4
             upper_bound = math.pi * 3 / 4
@@ -73,7 +77,7 @@ class RobotLogic():
                 continue
             
             robot_velocity = robot.twist.velocity
-            if math.dist(robot_position, our_position) <= 0.5 * robot_velocity:
+            if math.dist(robot_position, our_robot.pose) <= 0.5 * robot_velocity:
                 return robot.id
         return None
 
@@ -87,44 +91,42 @@ class RobotLogic():
         # start moving to goal (nonblocking)
         self.goal_driver.start()
         while rclpy.ok():
-            print("SPINNING")
             # spinning on mqtt pub/sub nodes
-            rclpy.spin_once(self.detections_sub, timeout_sec=0)
             rclpy.spin_once(self.odom_sub, timeout_sec=0)
+            rclpy.spin_once(self.detections_sub, timeout_sec=0)
             rclpy.spin_once(self.external_state, timeout_sec=0)
             self.external_state.send_state_to_mqtt()
-            self.all_robots.update_robots_pos()
 
 
             done, _ = self.goal_driver.spin()
             if done:
                 self.internal_state = InternalState.ATGOAL
                 print("GOAL IS DONE")
+                # rclpy.shutdown()
 
 
             done, _ = self.collision_driver.spin()
-            
             if done: # on end of collision avoidance routine
+                print("COLLISION ROUTINE DONE")
                 self.internal_state = InternalState.OTHER
                 self.goal_driver.start()
                 self.old_collision = None
 
 
-
             # if there is a collision
-            if newCollision := self.collisionDetection() is not None:
-                print("THERE IS A COLLISION")
+            if newCollision := self.collisionDetection() is not None or True:
                 self.goal_driver.stop()
+
 
                 # just started a brand new collision
                 if self.internal_state == InternalState.OTHER:
                     # turn left 90deg to start.
-                    #TODO: this is the wrong amount of degrees. it shuld first match  
-                    self.collision_driver.start(- 1 * math.pi / 4)
+                    #TODO: this is the wrong amount of degrees. it should first match other robot 
+                    self.collision_driver.start(math.pi / 2)
                 self.internal_state = InternalState.DOINGCOLLISION
 
                 # if another collision while doing collision
-                if newCollision != self.oldCollision and self.oldCollision is not None:
+                if newCollision != self.old_collision and self.old_collision is not None:
                     self.old_collision = newCollision
                     self.collision_driver.reset()
 

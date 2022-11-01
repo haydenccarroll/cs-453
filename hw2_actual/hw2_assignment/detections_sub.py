@@ -31,6 +31,7 @@ class DetectionsSub(Node):
             self.qos)
 
     def _result_callback(self, future):
+        print("DETECTIONS")
         msg = dict()
         msg["detections"] = future.detections
         
