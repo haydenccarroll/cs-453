@@ -1,0 +1,232 @@
+[0.687s] DEBUG:colcon:Command line arguments: ['/home/haydenccarroll/.local/bin/colcon', 'build']
+[0.688s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f30c1483040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f30c1d3bf70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f30c1d3bf70>>)
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.727s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/haydenccarroll/Repositories/cs-453'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extensions ['colcon_pkg']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extension 'colcon_pkg'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extensions ['colcon_meta']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extension 'colcon_meta'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extensions ['ros']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_assignment) by extension 'ros'
+[0.748s] DEBUG:colcon.colcon_core.package_identification:Package 'hw1_assignment' with type 'ros.ament_python' and name 'hw1_assignment'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extension 'ignore_ament_install'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extensions ['colcon_pkg']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extension 'colcon_pkg'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extensions ['colcon_meta']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extension 'colcon_meta'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extensions ['ros']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(hw2_assignment) by extension 'ros'
+[0.750s] DEBUG:colcon.colcon_core.package_identification:Package 'hw2_assignment' with type 'ros.ament_python' and name 'hw2_assignment'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(irobot_create_msgs) by extension 'ros'
+[0.754s] DEBUG:colcon.colcon_core.package_identification:Package 'irobot_create_msgs' with type 'ros.ament_cmake' and name 'irobot_create_msgs'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'cmake_target' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'cmake_clean_first' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'cmake_force_configure' from command line to 'False'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'ament_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'hw2_assignment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.813s] DEBUG:colcon.colcon_core.verb:Building package 'hw2_assignment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/haydenccarroll/Repositories/cs-453/build/hw2_assignment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment', 'merge_install': False, 'path': '/home/haydenccarroll/Repositories/cs-453/hw2_assignment', 'symlink_install': False, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'irobot_create_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'irobot_create_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs', 'merge_install': False, 'path': '/home/haydenccarroll/Repositories/cs-453/irobot_create_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'cmake_target' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'cmake_clean_cache' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'cmake_clean_first' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'cmake_force_configure' from command line to 'False'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'ament_cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'catkin_cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'hw1_assignment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.833s] DEBUG:colcon.colcon_core.verb:Building package 'hw1_assignment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/haydenccarroll/Repositories/cs-453/build/hw1_assignment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment', 'merge_install': False, 'path': '/home/haydenccarroll/Repositories/cs-453/hw1_assignment', 'symlink_install': False, 'test_result_base': None}
+[0.836s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.852s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/haydenccarroll/Repositories/cs-453/irobot_create_msgs' with build type 'ament_cmake'
+[0.852s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/haydenccarroll/Repositories/cs-453/irobot_create_msgs'
+[0.871s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/haydenccarroll/Repositories/cs-453/hw2_assignment' with build type 'ament_python'
+[0.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_assignment', 'ament_prefix_path')
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/hook/ament_prefix_path.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/hook/ament_prefix_path.dsv'
+[0.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/hook/ament_prefix_path.sh'
+[0.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.951s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment:/home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment:/opt/ros/humble /usr/local/bin/cmake /home/haydenccarroll/Repositories/cs-453/irobot_create_msgs -DCMAKE_INSTALL_PREFIX=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs
+[1.686s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/haydenccarroll/Repositories/cs-453/hw2_assignment'
+[1.695s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.695s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haydenccarroll/Repositories/cs-453/hw2_assignment': PYTHONPATH=/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw2_assignment build --build-base /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/build install --prefix /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment --record /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/install.log --single-version-externally-managed
+[3.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haydenccarroll/Repositories/cs-453/hw2_assignment' returned '0': PYTHONPATH=/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw2_assignment build --build-base /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/build install --prefix /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment --record /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/install.log --single-version-externally-managed
+[3.473s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment' for CMake module files
+[3.474s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment' for CMake config files
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib'
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/bin'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/pkgconfig/hw2_assignment.pc'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/python3.10/site-packages'
+[3.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2_assignment', 'pythonpath')
+[3.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/hook/pythonpath.ps1'
+[3.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/hook/pythonpath.dsv'
+[3.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/hook/pythonpath.sh'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/bin'
+[3.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw2_assignment)
+[3.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/package.ps1'
+[3.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/package.dsv'
+[3.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/package.sh'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/package.bash'
+[3.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment/package.zsh'
+[3.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/colcon-core/packages/hw2_assignment)
+[6.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment:/home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment:/opt/ros/humble /usr/local/bin/cmake /home/haydenccarroll/Repositories/cs-453/irobot_create_msgs -DCMAKE_INSTALL_PREFIX=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs
+[6.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment:/home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment:/opt/ros/humble /usr/local/bin/cmake --build /home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs -- -j4 -l4
+[160.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment:/home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment:/opt/ros/humble /usr/local/bin/cmake --build /home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs -- -j4 -l4
+[161.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs': CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment:/home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment:/opt/ros/humble /usr/local/bin/cmake --install /home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs
+[162.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_msgs)
+[162.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs' returned '0': CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/create3_examples_ws/src/hw1_assignment/install/hw1_assignment:/home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment:/opt/ros/humble /usr/local/bin/cmake --install /home/haydenccarroll/Repositories/cs-453/build/irobot_create_msgs
+[162.382s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs' for CMake module files
+[162.383s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs' for CMake config files
+[162.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'cmake_prefix_path')
+[162.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.ps1'
+[162.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.dsv'
+[162.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.sh'
+[162.421s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib'
+[162.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'ld_library_path_lib')
+[162.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.ps1'
+[162.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.dsv'
+[162.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.sh'
+[162.441s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/bin'
+[162.441s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib/pkgconfig/irobot_create_msgs.pc'
+[162.442s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib/python3.10/site-packages'
+[162.443s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/bin'
+[162.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.ps1'
+[162.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.dsv'
+[162.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.sh'
+[162.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.bash'
+[162.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.zsh'
+[162.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/colcon-core/packages/irobot_create_msgs)
+[163.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irobot_create_msgs)
+[163.911s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs' for CMake module files
+[163.914s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs' for CMake config files
+[163.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'cmake_prefix_path')
+[163.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.ps1'
+[163.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.dsv'
+[163.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/cmake_prefix_path.sh'
+[163.940s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib'
+[163.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('irobot_create_msgs', 'ld_library_path_lib')
+[163.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.ps1'
+[163.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.dsv'
+[163.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/hook/ld_library_path_lib.sh'
+[163.956s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/bin'
+[163.957s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib/pkgconfig/irobot_create_msgs.pc'
+[163.957s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib/python3.10/site-packages'
+[163.958s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/bin'
+[163.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.ps1'
+[163.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.dsv'
+[163.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.sh'
+[163.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.bash'
+[163.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/irobot_create_msgs/package.zsh'
+[163.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/share/colcon-core/packages/irobot_create_msgs)
+[163.982s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/haydenccarroll/Repositories/cs-453/hw1_assignment' with build type 'ament_python'
+[163.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1_assignment', 'ament_prefix_path')
+[163.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/hook/ament_prefix_path.ps1'
+[163.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/hook/ament_prefix_path.dsv'
+[163.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/hook/ament_prefix_path.sh'
+[164.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[164.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[165.172s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/haydenccarroll/Repositories/cs-453/hw1_assignment'
+[165.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[165.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[166.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haydenccarroll/Repositories/cs-453/hw1_assignment': AMENT_PREFIX_PATH=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs LD_LIBRARY_PATH=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib/python3.10/site-packages:/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw1_assignment build --build-base /home/haydenccarroll/Repositories/cs-453/build/hw1_assignment/build install --prefix /home/haydenccarroll/Repositories/cs-453/install/hw1_assignment --record /home/haydenccarroll/Repositories/cs-453/build/hw1_assignment/install.log --single-version-externally-managed
+[167.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haydenccarroll/Repositories/cs-453/hw1_assignment' returned '0': AMENT_PREFIX_PATH=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs LD_LIBRARY_PATH=/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib/python3.10/site-packages:/home/haydenccarroll/Repositories/cs-453/install/irobot_create_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw1_assignment build --build-base /home/haydenccarroll/Repositories/cs-453/build/hw1_assignment/build install --prefix /home/haydenccarroll/Repositories/cs-453/install/hw1_assignment --record /home/haydenccarroll/Repositories/cs-453/build/hw1_assignment/install.log --single-version-externally-managed
+[167.382s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment' for CMake module files
+[167.383s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment' for CMake config files
+[167.386s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib'
+[167.386s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/bin'
+[167.387s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib/pkgconfig/hw1_assignment.pc'
+[167.387s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib/python3.10/site-packages'
+[167.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1_assignment', 'pythonpath')
+[167.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/hook/pythonpath.ps1'
+[167.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/hook/pythonpath.dsv'
+[167.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/hook/pythonpath.sh'
+[167.416s] Level 1:colcon.colcon_core.environment:checking '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/bin'
+[167.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1_assignment)
+[167.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/package.ps1'
+[167.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/package.dsv'
+[167.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/package.sh'
+[167.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/package.bash'
+[167.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/hw1_assignment/package.zsh'
+[167.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/share/colcon-core/packages/hw1_assignment)
+[167.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[167.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[167.443s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[167.443s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[167.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[167.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[167.489s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[167.586s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[167.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haydenccarroll/Repositories/cs-453/install/local_setup.ps1'
+[167.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/haydenccarroll/Repositories/cs-453/install/_local_setup_util_ps1.py'
+[167.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haydenccarroll/Repositories/cs-453/install/setup.ps1'
+[167.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haydenccarroll/Repositories/cs-453/install/local_setup.sh'
+[167.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/haydenccarroll/Repositories/cs-453/install/_local_setup_util_sh.py'
+[167.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haydenccarroll/Repositories/cs-453/install/setup.sh'
+[167.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haydenccarroll/Repositories/cs-453/install/local_setup.bash'
+[167.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haydenccarroll/Repositories/cs-453/install/setup.bash'
+[167.674s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haydenccarroll/Repositories/cs-453/install/local_setup.zsh'
+[167.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haydenccarroll/Repositories/cs-453/install/setup.zsh'

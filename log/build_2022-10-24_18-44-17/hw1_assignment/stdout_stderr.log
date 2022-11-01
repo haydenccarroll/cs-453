@@ -1,0 +1,21 @@
+running egg_info
+writing ../build/hw1_assignment/hw1_assignment.egg-info/PKG-INFO
+writing dependency_links to ../build/hw1_assignment/hw1_assignment.egg-info/dependency_links.txt
+writing entry points to ../build/hw1_assignment/hw1_assignment.egg-info/entry_points.txt
+writing requirements to ../build/hw1_assignment/hw1_assignment.egg-info/requires.txt
+writing top-level names to ../build/hw1_assignment/hw1_assignment.egg-info/top_level.txt
+reading manifest file '../build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+writing manifest file '../build/hw1_assignment/hw1_assignment.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/hw1_assignment/hw1_assignment.egg-info to /home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib/python3.10/site-packages/hw1_assignment-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test script to /home/haydenccarroll/Repositories/cs-453/install/hw1_assignment/lib/hw1_assignment
+writing list of installed files to '/home/haydenccarroll/Repositories/cs-453/build/hw1_assignment/install.log'

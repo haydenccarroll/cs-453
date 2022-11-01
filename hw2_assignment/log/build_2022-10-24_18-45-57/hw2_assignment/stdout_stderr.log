@@ -1,0 +1,45 @@
+running egg_info
+writing build/hw2_assignment/hw2_assignment.egg-info/PKG-INFO
+writing dependency_links to build/hw2_assignment/hw2_assignment.egg-info/dependency_links.txt
+writing entry points to build/hw2_assignment/hw2_assignment.egg-info/entry_points.txt
+writing requirements to build/hw2_assignment/hw2_assignment.egg-info/requires.txt
+writing top-level names to build/hw2_assignment/hw2_assignment.egg-info/top_level.txt
+reading manifest file 'build/hw2_assignment/hw2_assignment.egg-info/SOURCES.txt'
+writing manifest file 'build/hw2_assignment/hw2_assignment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build
+creating /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib
+creating /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+copying hw2_assignment/main.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+copying hw2_assignment/__init__.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+copying hw2_assignment/rotator.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+copying hw2_assignment/docker.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+copying hw2_assignment/audio_manager.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+copying hw2_assignment/driver.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+copying hw2_assignment/navigator.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+copying /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment/main.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+copying /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment/__init__.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+copying /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment/rotator.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+copying /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment/docker.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+copying /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment/audio_manager.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+copying /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment/driver.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+copying /home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/build/lib/hw2_assignment/navigator.py -> /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment
+byte-compiling /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment/main.py to main.cpython-310.pyc
+byte-compiling /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment/rotator.py to rotator.cpython-310.pyc
+byte-compiling /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment/docker.py to docker.cpython-310.pyc
+byte-compiling /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment/audio_manager.py to audio_manager.cpython-310.pyc
+byte-compiling /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment/driver.py to driver.cpython-310.pyc
+byte-compiling /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment/navigator.py to navigator.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/hw2_assignment/hw2_assignment.egg-info to /home/haydenccarroll/Repositories/cs-453/hw2_assignment/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/haydenccarroll/Repositories/cs-453/hw2_assignment/build/hw2_assignment/install.log'

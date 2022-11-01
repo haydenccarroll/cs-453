@@ -1,3 +1,0 @@
--- run_test.py: invoking following command in '/home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/src/irobot_create_msgs':
- - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/test_results/irobot_create_msgs/cpplint_rosidl_typesupport_cpp.xunit.xml --linelength 999 --root /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_typesupport_cpp /home/robotnik/OneDrive/Documents/U_of_I/2022-23_UofI/CS553_AdvancedRobotics/HW/1_Drive_Figure_4/build/irobot_create_msgs/rosidl_typesupport_cpp/irobot_create_msgs
-

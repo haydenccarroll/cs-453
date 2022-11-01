@@ -1,0 +1,29 @@
+[2.246s] Invoking command in '/home/haydenccarroll/Repositories/cs-453/hw2_assignment': PYTHONPATH=/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw2_assignment build --build-base /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/build install --prefix /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment --record /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/install.log --single-version-externally-managed
+[2.749s] running egg_info
+[2.750s] writing ../build/hw2_assignment/hw2_assignment.egg-info/PKG-INFO
+[2.751s] writing dependency_links to ../build/hw2_assignment/hw2_assignment.egg-info/dependency_links.txt
+[2.751s] writing entry points to ../build/hw2_assignment/hw2_assignment.egg-info/entry_points.txt
+[2.752s] writing requirements to ../build/hw2_assignment/hw2_assignment.egg-info/requires.txt
+[2.752s] writing top-level names to ../build/hw2_assignment/hw2_assignment.egg-info/top_level.txt
+[2.754s] package init file 'hw2_assignment/__init__.py' not found (or not a regular file)
+[2.754s] reading manifest file '../build/hw2_assignment/hw2_assignment.egg-info/SOURCES.txt'
+[2.756s] writing manifest file '../build/hw2_assignment/hw2_assignment.egg-info/SOURCES.txt'
+[2.756s] running build
+[2.756s] running build_py
+[2.759s] running install
+[2.760s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.760s]   warnings.warn(
+[2.760s] running install_lib
+[2.761s] warning: install_lib: '/home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/build/lib' does not exist -- no Python modules to install
+[2.762s] 
+[2.762s] running install_data
+[2.763s] creating /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index
+[2.763s] creating /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index/resource_index
+[2.763s] creating /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index/resource_index/packages
+[2.764s] copying resource/hw2_assignment -> /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index/resource_index/packages
+[2.764s] copying package.xml -> /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment
+[2.764s] running install_egg_info
+[2.766s] Copying ../build/hw2_assignment/hw2_assignment.egg-info to /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment-0.0.0-py3.10.egg-info
+[2.767s] running install_scripts
+[2.807s] writing list of installed files to '/home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/install.log'
+[2.937s] Invoked command in '/home/haydenccarroll/Repositories/cs-453/hw2_assignment' returned '0': PYTHONPATH=/home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw2_assignment build --build-base /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/build install --prefix /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment --record /home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/install.log --single-version-externally-managed

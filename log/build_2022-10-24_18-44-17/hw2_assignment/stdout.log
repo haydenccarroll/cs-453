@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/hw2_assignment/hw2_assignment.egg-info/PKG-INFO
+writing dependency_links to ../build/hw2_assignment/hw2_assignment.egg-info/dependency_links.txt
+writing entry points to ../build/hw2_assignment/hw2_assignment.egg-info/entry_points.txt
+writing requirements to ../build/hw2_assignment/hw2_assignment.egg-info/requires.txt
+writing top-level names to ../build/hw2_assignment/hw2_assignment.egg-info/top_level.txt
+reading manifest file '../build/hw2_assignment/hw2_assignment.egg-info/SOURCES.txt'
+writing manifest file '../build/hw2_assignment/hw2_assignment.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index
+creating /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index/resource_index
+creating /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index/resource_index/packages
+copying resource/hw2_assignment -> /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/ament_index/resource_index/packages
+copying package.xml -> /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/share/hw2_assignment
+running install_egg_info
+Copying ../build/hw2_assignment/hw2_assignment.egg-info to /home/haydenccarroll/Repositories/cs-453/install/hw2_assignment/lib/python3.10/site-packages/hw2_assignment-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/haydenccarroll/Repositories/cs-453/build/hw2_assignment/install.log'

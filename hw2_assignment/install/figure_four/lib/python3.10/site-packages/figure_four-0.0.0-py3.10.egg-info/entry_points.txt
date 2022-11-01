@@ -1,4 +1,0 @@
-[console_scripts]
-figurefour = figure_four.figure_four:main
-main = figure_four.main:main
-
